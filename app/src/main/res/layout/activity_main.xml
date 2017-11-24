@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lx_20171113.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/fg_homepage_title"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <com.youth.banner.Banner
+            android:id="@+id/fg_homepage_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </com.youth.banner.Banner>
+        <com.example.lx_20171113.TitleView_homepage
+            android:id="@+id/fg_homepage_head"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"></com.example.lx_20171113.TitleView_homepage>
+
+    </RelativeLayout>
+
+</RelativeLayout>
